@@ -135,6 +135,8 @@
     - SpeedLoaderShotgunUraniumFlechette
     - SpeedLoaderMagnumUranium
     - SpeedLoaderRevolver38Incendiary
+    - SpeedLoaderMagnumLeverUranium
+    - SpeedLoaderMagnumLeverIncendiary
 #Magazine
     - MagazineRifle556Incendiary
     - MagazinePistolIncendiary
@@ -715,6 +717,7 @@
   unlocks:
 #SpeedLoader
     - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumLeverAP
 #Magazine
     - MagazinePistolAP
     - MagazinePistol38AP

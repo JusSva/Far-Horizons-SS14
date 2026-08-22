@@ -166,6 +166,14 @@
   - Rifle556HeavyMagazineHP
   - Rifle556HeavyMagazineFMJ
   - Rifle556HeavyMagazineEmpty
+
+# 44 rifle speedloaders
+  - SpeedLoaderMagnumLeverEmpty
+  - SpeedLoaderMagnumLeverFMJ
+  - SpeedLoaderMagnumLeverHP
+  - SpeedLoaderMagnumLeverPractice
+  - SpeedLoaderMagnumLeverSP
+  - SpeedLoaderMagnumLeverRubber
 ####################################################
 
 # Shared between AmmoFab and emagged Protolathe
@@ -269,3 +277,7 @@
   - SpeedLoaderShotgunUraniumFlechette
 # Grenade
   - MagazineGrenadeEmpty
+# Magnum Rifle 
+  - SpeedLoaderMagnumLeverIncendiary
+  - SpeedLoaderMagnumLeverUranium
+  - SpeedLoaderMagnumLeverAP

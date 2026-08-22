@@ -199,7 +199,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumLeverEmpty
-  name: ".44 Magnum Speed loader" #FH
+  name: ".44 Magnum Speed loader (.44 Magnum Any)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
   components:
   - type: BallisticAmmoProvider

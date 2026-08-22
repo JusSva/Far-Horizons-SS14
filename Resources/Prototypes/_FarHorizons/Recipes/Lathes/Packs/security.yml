@@ -17,6 +17,7 @@
   - MagazineMagnumPractice
   - MagazineCanisterRifle556Practice
   - MagazineCanisterMagnumPractice
+  - SpeedLoaderMagnumLeverPractice
 
 - type: latheRecipePack
   id: FarHorizonsSecurityAmmoStatic
@@ -153,6 +154,13 @@
   - Rifle556HeavyMagazineFMJ
   - Rifle556HeavyMagazineEmpty
 
+# 44 rifle speedloaders
+  - SpeedLoaderMagnumLeverEmpty
+  - SpeedLoaderMagnumLeverFMJ
+  - SpeedLoaderMagnumLeverHP
+  - SpeedLoaderMagnumLeverSP
+  - SpeedLoaderMagnumLeverRubber
+
 #region Dynamic recipes
 - type: latheRecipePack
   id: FarHorizonsSecurityWeaponsDynamic
@@ -260,6 +268,10 @@
   - Rifle556HeavyMagazineIncendiary
   - Rifle556HeavyMagazineUranium
   - Rifle556HeavyMagazineAP
+# Magnum Rifle 
+  - SpeedLoaderMagnumLeverIncendiary
+  - SpeedLoaderMagnumLeverUranium
+  - SpeedLoaderMagnumLeverAP
 # Grenade
   - MagazineGrenadeEmpty
 

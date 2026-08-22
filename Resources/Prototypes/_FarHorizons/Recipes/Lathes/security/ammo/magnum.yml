@@ -208,3 +208,74 @@
   materials:
     Plastic: 2560
     Uranium: 480
+
+#region .44 Rifle Speedloader
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverEmpty
+  result: SpeedLoaderMagnumLeverEmpty
+  materials:
+    Steel: 50
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverSP
+  result: SpeedLoaderMagnumLeverSP
+  materials:
+    Steel: 386
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverHP
+  result: SpeedLoaderMagnumLeverHP
+  materials:
+    Steel: 386
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverFMJ
+  result: SpeedLoaderMagnumLeverFMJ
+  materials:
+    Steel: 386
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverPractice
+  result: SpeedLoaderMagnumLeverPractice
+  materials:
+    Steel: 150
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverRubber
+  result: SpeedLoaderMagnumLeverRubber
+  materials:
+    Steel: 150
+    Plastic: 50
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverIncendiary
+  result: SpeedLoaderMagnumLeverIncendiary
+  materials:
+    Steel: 60
+    Plastic: 320
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverUranium
+  result: SpeedLoaderMagnumLeverUranium
+  materials:
+    Steel: 60
+    Plastic: 234
+    Uranium: 250
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumLeverAP
+  result: SpeedLoaderMagnumLeverAP
+  materials:
+    Steel: 200
+    Uranium: 210
+    Plastic: 290
