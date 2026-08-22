@@ -201,6 +201,7 @@
   id: SpeedLoaderMagnumLeverEmpty
   name: ".44 Magnum Speed loader (.44 Magnum Any)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -231,6 +232,7 @@
   id: SpeedLoaderMagnumLeverSP
   name: ".44 Magnum Speed Loader (.44 Magnum SP)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with .44 Soft-Point rounds.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumSP
@@ -261,6 +263,7 @@
   id: SpeedLoaderMagnumLeverHP
   name: ".44 Magnum Speed Loader (.44 Magnum HP)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with .44 Hollow-Point rounds.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumHP
@@ -292,6 +295,7 @@
   id: SpeedLoaderMagnumLeverFMJ
   name: ".44 Magnum Speed Loader (.44 Magnum FMJ)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with .44 Full Metal Jacket rounds.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumFMJ
@@ -322,6 +326,7 @@
   id: SpeedLoaderMagnumLeverAP
   name: ".44 Magnum Speed Loader (.44 Magnum AP)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with .44 Armor Piercing rounds.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP
@@ -352,6 +357,7 @@
   id: SpeedLoaderMagnumLeverPractice
   name: ".44 Magnum Speed Loader (.44 Magnum Practice)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with Chalk .44 rounds for target practice.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -382,6 +388,7 @@
   id: SpeedLoaderMagnumLeverIncendiary
   name: ".44 Magnum Speed Loader (.44 Magnum Incendiary)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with .44 Incendiary rounds.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumIncendiary
@@ -412,6 +419,7 @@
   id: SpeedLoaderMagnumLeverUranium
   name: ".44 Magnum Speed Loader (.44 Magnum Uranium)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with .44 uranium-core rounds.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -442,6 +450,7 @@
   id: SpeedLoaderMagnumLeverRubber
   name: ".44 Magnum Speed Loader (.44 Magnum Rubber)" #FH
   parent: [BaseSpeedLoaderShotgun, BaseSecurityContraband]
+  description: 10-round magnum rifle speedloader. Loaded with .44 rubber rounds. Mostly harmless
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumRubber

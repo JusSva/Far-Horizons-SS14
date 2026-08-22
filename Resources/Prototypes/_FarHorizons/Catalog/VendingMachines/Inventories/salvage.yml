@@ -198,6 +198,16 @@
   conditions:
   - !type:BuyerAccessCondition
 
+- type: listing
+  id: VendorSalvageSpeedloaderMagnumLever
+  productEntity: SpeedLoaderMagnumLeverEmpty
+  cost:
+    SalvageTicket: 75
+  categories:
+  - SalvageAmmo
+  conditions:
+  - !type:BuyerAccessCondition
+
 #Armor
 - type: listing
   id: VendorSalvageClothingOuterArmorSalvageMedium
