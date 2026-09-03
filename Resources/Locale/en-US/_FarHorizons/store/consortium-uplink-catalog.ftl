@@ -385,19 +385,19 @@ uplink-consortium-eva-syndie-desc = A simple EVA suit that offers no protection 
 uplink-consortium-hardsuit-carp-name = Carp Hardsuit
 uplink-consortium-hardsuit-carp-desc = Looks like an ordinary carp suit, except fully spaceproof and tricks space carp into thinking you are one of them.
 
-uplink-consortium-hardsuit-syndie-name = Syndicate Hardsuit
+uplink-consortium-hardsuit-syndie-name = Syndicate Hardsuit !here
 uplink-consortium-hardsuit-syndie-desc = The Syndicate's well known armored blood red hardsuit, capable of space walks and bullet resistant.
 
-uplink-consortium-syndie-raid-name = Syndicate Raid Suit
+uplink-consortium-syndie-raid-name = Syndicate Raid Suit !here
 uplink-consortium-syndie-raid-desc = A very durable and reasonably flexible suit of blood-red armor, reinforced against all common forms of damage but not capable of space walks. Comes with a sick helmet.
 
-uplink-consortium-hardsuit-infiltration-name = Syndicate Infiltration Hardsuit
+uplink-consortium-hardsuit-infiltration-name = Syndicate Infiltration Hardsuit !here
 uplink-consortium-hardsuit-infiltration-desc = The Syndicate's Special Operations' hardsuit of choice, this hardsuit, as well as durability, has been built with chameleon technology integrated.
 
-uplink-consortium-hardsuit-syndieelite-name = Syndicate Elite Hardsuit
+uplink-consortium-hardsuit-syndieelite-name = Syndicate Elite Hardsuit !here
 uplink-consortium-hardsuit-syndieelite-desc = An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
 
-uplink-consortium-clothing-outer-hardsuit-juggernaut-name = Cybersun Juggernaut Suit
+uplink-consortium-clothing-outer-hardsuit-juggernaut-name = Cybersun Juggernaut Suit !here
 uplink-consortium-clothing-outer-hardsuit-juggernaut-desc = Hyper resilient armor made of materials tested in the Tau chromosphere facility. The only thing that's going to be slowing you down is this suit... and tasers.
 
 uplink-consortium-energy-dome-name = Personal Energy Dome
