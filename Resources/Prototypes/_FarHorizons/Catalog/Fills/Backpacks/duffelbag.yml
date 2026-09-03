@@ -496,6 +496,9 @@
 
 #regoin Lambda Hardsuits
 
+
+
+#region base lambda hardsuit
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelLambdaHardsuitBundle
@@ -509,3 +512,36 @@
         - id: ClothingOuterHardsuitLambda
         - !type:NestedSelector
           tableId: SyndicateHardsuitExtrasEntityTable # For now leaving the Syndicate Extras table
+
+#region Lambda Infil suit
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelLambdaInfiltration
+  name: infiltration hardsuit bundle
+  description: "Contains the latest in Syndicate chameleon technology, the infiltration hardsuit."
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingOuterHardsuitLambdaInfiltration
+        - id: ClothingMaskGasSyndicate
+        - id: ClothingHandsGlovesCombat
+        - id: DoubleEmergencyOxygenTankFilled
+        - id: DoubleEmergencyNitrogenTankFilled
+        - id: EmergencyCoolingUnit
+
+#region lambda elite suit
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelLambdaEliteHardsuitBundle
+  name: Syndicate Elite Hardsuit Bundle #FH
+  description: "Contains the Syndicate's elite hardsuit, which comes with some more stuff in it."
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingOuterHardsuitLambdaElite
+        - !type:NestedSelector
+          tableId: SyndicateHardsuitExtrasEntityTable
