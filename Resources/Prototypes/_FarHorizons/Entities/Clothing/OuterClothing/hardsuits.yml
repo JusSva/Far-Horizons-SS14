@@ -341,20 +341,20 @@
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING
-      # outerClothing-reptilian:
-      #   - state: equipped-OUTERCLOTHING-reptilian
+      outerClothing-reptilian:
+        - state: equipped-OUTERCLOTHING
       outerClothing-vox:
         - state: equipped-OUTERCLOTHING-vox
-      # outerClothing-cyclorite:
-      #   - state: equipped-OUTERCLOTHING-cyclorite
-      # outerClothing-felionoid:
-      #   - state: equipped-OUTERCLOTHING-felionoid
-      # outerClothing-vulpkanin:
-      #   - state: equipped-OUTERCLOTHING-vulpkanin
-      # outerClothing-resomi:
-      #   - state: equipped-OUTERCLOTHING-resomi
-      # outerClothing-avali:
-      #   - state: equipped-OUTERCLOTHING-avali
+      outerClothing-cyclorite:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-felionoid:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-vulpkanin:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-resomi:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-avali:
+        - state: equipped-OUTERCLOTHING
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -501,8 +501,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitLambdaElite
-  name: Syndicate Elite Hardsuit #Far Horizons - The Great Capitalization Crusade
-  suffix: NT #Far Horizons - Dual Station Clarity
+  name: Syndicate Elite Hardsuit
+  suffix: NT
   description: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
@@ -515,19 +515,19 @@
       outerClothing:
         - state: equipped-OUTERCLOTHING
       outerClothing-reptilian:
-        - state: equipped-OUTERCLOTHING-reptilian
+        - state: equipped-OUTERCLOTHING
       outerClothing-vox:
         - state: equipped-OUTERCLOTHING-vox
       outerClothing-cyclorite:
-        - state: equipped-OUTERCLOTHING-cyclorite
+        - state: equipped-OUTERCLOTHING
       outerClothing-felionoid:
-        - state: equipped-OUTERCLOTHING-felionoid
+        - state: equipped-OUTERCLOTHING
       outerClothing-vulpkanin:
-        - state: equipped-OUTERCLOTHING-vulpkanin
+        - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING-resomi
+        - state: equipped-OUTERCLOTHING
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING-avali
+        - state: equipped-OUTERCLOTHING
     equipSound: /Audio/Mecha/mechmove03.ogg #starlight
     unequipSound: /Audio/Mecha/mechmove03.ogg #starlight
   - type: PressureProtection
@@ -607,21 +607,21 @@
       outerClothing:
         - state: equipped-OUTERCLOTHING
       outerClothing-reptilian:
-        - state: equipped-OUTERCLOTHING-reptilian
+        - state: equipped-OUTERCLOTHING
       outerClothing-vox:
         - state: equipped-OUTERCLOTHING-vox
       outerClothing-cyclorite:
-        - state: equipped-OUTERCLOTHING-cyclorite
+        - state: equipped-OUTERCLOTHING
       outerClothing-felionoid:
-        - state: equipped-OUTERCLOTHING-felionoid
+        - state: equipped-OUTERCLOTHING
       outerClothing-vulpkanin:
-        - state: equipped-OUTERCLOTHING-vulpkanin
+        - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING-resomi
+        - state: equipped-OUTERCLOTHING
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING-avali
+        - state: equipped-OUTERCLOTHING
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndieMedic
+    clothingPrototype: ClothingHeadHelmetHardsuitLambdaMedic
   - type: ZombificationResistance
     zombificationResistanceCoefficient: 0.75 # Starlight Edit
   - type: Tag
@@ -652,20 +652,20 @@
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING
-      outerClothing-reptilian: #FH
-        - state: equipped-OUTERCLOTHING-reptilian
+      outerClothing-reptilian: 
+        - state: equipped-OUTERCLOTHING
       outerClothing-vox:
         - state: equipped-OUTERCLOTHING-vox
-      outerClothing-cyclorite: #FH
-        - state: equipped-OUTERCLOTHING-cyclorite #FH
-      outerClothing-vulpkanin: #FH
-        - state: equipped-OUTERCLOTHING-vulpkanin #FH
-      outerClothing-felionoid: #FH
-        - state: equipped-OUTERCLOTHING-felionoid #FH
+      outerClothing-cyclorite:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-vulpkanin:
+        - state: equipped-OUTERCLOTHING
+      outerClothing-felionoid: 
+        - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING-resomi
+        - state: equipped-OUTERCLOTHING
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING-avali
+        - state: equipped-OUTERCLOTHING
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
@@ -741,19 +741,19 @@
       outerClothing:
         - state: equipped-OUTERCLOTHING
       outerClothing-reptilian:
-        - state: equipped-OUTERCLOTHING-reptilian
+        - state: equipped-OUTERCLOTHING
       outerClothing-vox:
         - state: equipped-OUTERCLOTHING-vox
       outerClothing-cyclorite:
-        - state: equipped-OUTERCLOTHING-cyclorite
+        - state: equipped-OUTERCLOTHING
       outerClothing-felionoid:
-        - state: equipped-OUTERCLOTHING-felionoid
+        - state: equipped-OUTERCLOTHING
       outerClothing-vulpkanin:
-        - state: equipped-OUTERCLOTHING-vulpkanin
+        - state: equipped-OUTERCLOTHING
       outerClothing-resomi:
-        - state: equipped-OUTERCLOTHING-resomi
+        - state: equipped-OUTERCLOTHING
       outerClothing-avali:
-        - state: equipped-OUTERCLOTHING-avali
+        - state: equipped-OUTERCLOTHING
     equipSound: /Audio/Mecha/mechmove03.ogg #starlight
     unequipSound: /Audio/Mecha/mechmove03.ogg #starlight
   - type: PressureProtection
@@ -801,7 +801,7 @@
         pitch: 0.9
         variation: 0.02
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
+    clothingPrototype: ClothingHeadHelmetHardsuitLambdaCommander
   - type: Tag
     tags:
     - Hardsuit

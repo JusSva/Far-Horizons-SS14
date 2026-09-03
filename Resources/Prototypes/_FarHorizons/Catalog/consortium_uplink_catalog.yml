@@ -1812,11 +1812,11 @@
   - ConsortiumUplinkWearables
 
 - type: listing
-  id: ConsortiumUplinkHardsuitSyndie
+  id: ConsortiumUplinkLambdaHardsuit
   name: uplink-consortium-hardsuit-syndie-name
   description: uplink-consortium-hardsuit-syndie-desc
   icon: { sprite: /Textures/_FarHorizons/Clothing/OuterClothing/Hardsuits/syndicate.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateHardsuitBundle
+  productEntity: ClothingBackpackDuffelLambdaHardsuitBundle
   discountCategory: veryRareDiscounts
   discountDownTo:
     Refinedbluespacecrystal: 4

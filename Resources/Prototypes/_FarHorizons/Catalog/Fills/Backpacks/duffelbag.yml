@@ -493,3 +493,19 @@
           amount: 4
         - id: MagazineMagnum
           amount: 4
+
+#regoin Lambda Hardsuits
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelLambdaHardsuitBundle
+  name: Lambda Hardsuit Bundle #FH
+  description: "Contains the Lambda Hardliner's signature blood red hardsuit."
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingOuterHardsuitLambda
+        - !type:NestedSelector
+          tableId: SyndicateHardsuitExtrasEntityTable # For now leaving the Syndicate Extras table

@@ -792,9 +792,9 @@
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/hardliner_raid.rsi
     layers:
     - state: icon
-    - state: light-overlay
-      visible: false
-      shader: unshaded
+    # - state: light-overlay
+    #   visible: false
+    #   shader: unshaded
   - type: Clothing
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/hardliner_raid.rsi
   - type: Pierceable
@@ -830,10 +830,10 @@
     spriteLayer: light
     clothingVisuals:
       outerClothing:
-      - state: equipped-OUTERCLOTHING-light
+      - state: equipped-OUTERCLOTHING
         shader: unshaded
       outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-light-vox
+      - state: equipped-OUTERCLOTHING-vox
         shader: unshaded
   - type: ItemTogglePointLight
   - type: Appearance
@@ -843,7 +843,7 @@
     radiatingBehaviourId: radiating
   - type: PointLight
     enabled: false
-    color: "#80ff80"
+    color: white
     radius: 5
     energy: 2
     lightMask: ConeSingle
