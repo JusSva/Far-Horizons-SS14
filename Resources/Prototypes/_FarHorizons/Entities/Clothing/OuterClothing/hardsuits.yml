@@ -326,18 +326,18 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitLambda
-  name: Blue-Blood Hardsuit 
+  name: Lambda Hardsuit "Spartan"
   suffix: NT 
-  description: A heavily armored hardsuit designed for work in special operations. Property of LAMBDA Hardliners.
+  description: The signiture hardsuit of the Lambda Hardliners. The perfect choice to fight against insurmountable odds.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_hardsuit.rsi #FH
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner.rsi #FH
     layers: 
       - state: icon
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_hardsuit.rsi
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner.rsi
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING
@@ -413,14 +413,13 @@
   - type: SpaceRescuePingSender
     hidden: true
 
-
 #region Lambda Infiltration Suit
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing, BaseToggleClothing, BaseSyndicateContraband]
   id: ClothingOuterHardsuitLambdaInfiltration
-  name: syndicate infiltration hardsuit
+  name: Lambda Infiltration Hardsuit "Hades"
   suffix: NT
-  description: The Syndicate's Special Operations' hardsuit of choice, this hardsuit, as well as durability, has been built with stealth in mind.
+  description: A specialized hardsuit, allowing the user to be efficient and unseen, just like Tartarus.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_infiltration.rsi
@@ -496,21 +495,20 @@
   - type: SpaceRescuePingSender # Far Horizons
     hidden: true
 
-
 #region Lambda Elite Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitLambdaElite
-  name: Syndicate Elite Hardsuit
+  name: Lambda Elite Hardsuit "Helios"
   suffix: NT
-  description: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
+  description: An elite version of the "Spartan" hardsuit, allowing the user to embody The Sun during missions.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_elite_hardsuit.rsi #FH
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_elite.rsi #FH
     layers:
       - state: icon
   - type: Clothing
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_elite_hardsuit.rsi
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_elite.rsi
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING
@@ -595,14 +593,15 @@
 - type: entity
   parent: [ClothingOuterHardsuitSyndie, BaseSyndicateContraband]
   id: ClothingOuterHardsuitLambdaMedic
-  name: Blood-Red Medic Hardsuit #Far Horizons - The Great Capitalization Crusade
-  suffix: NT #Far Horizons - Dual Station Clarity
-  description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
+  name: Lambda Medic Hardsuit "Pheonix"
+  suffix: NT
+  description: An armored hardsuit, designed with combat medics in mind. With it, the wearer will be able to ensure the other operatives rise from the ashes again.
+  # description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_medical_hardsuit.rsi #FH
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_medical.rsi #FH
   - type: Clothing
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_medical_hardsuit.rsi
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_medical.rsi
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING
@@ -630,21 +629,20 @@
     - WhitelistChameleon
     - IPCExternalCooling # Far Horizons
 
-
 #region Lambda Juggernaut Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitLambdaJuggernaut
-  name: Cybersun Juggernaut Suit #Far Horizons - The Great Capitalization Crusade
-  suffix: NT #Far Horizons - Dual Station Clarity
-  description: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
+  name: Lambda Juggernaut Suit "Polyphemus"
+  suffix: NT
+  description: A suit of armor as powerful as the fabled cyclops. Protects everything except the eyes exceptionally well.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_heavy_hardsuit.rsi #FH
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_heavy.rsi #FH
     layers:
       - state: icon
   - type: Clothing
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_heavy_hardsuit.rsi #FH
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_heavy.rsi #FH
     equipSound: /Audio/Mecha/mechmove03.ogg #starlight
     unequipSound: /Audio/Mecha/mechmove03.ogg #starlight
     equipDelay: 3 #starlight
@@ -727,16 +725,16 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitLambdaCommander
-  name: Syndicate Commander Hardsuit #Far Horizons - The Great Capitalization Crusade
+  name: Lambda Commander Hardsuit "Ares" #Far Horizons - The Great Capitalization Crusade
   suffix: NT #Far Horizons - Dual Station Clarity
-  description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  description: A bulked up version of the "Spartan" hardsuit, allowing the user to prove they came to wage war.
   components:
   - type: Sprite
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_commander_hardsuit.rsi #FH
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_commander.rsi #FH
     layers: #FH
       - state: icon #FH
   - type: Clothing
-    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_commander_hardsuit.rsi
+    sprite: _FarHorizons/Clothing/OuterClothing/Hardsuits/hardliner_commander.rsi
     clothingVisuals:
       outerClothing:
         - state: equipped-OUTERCLOTHING

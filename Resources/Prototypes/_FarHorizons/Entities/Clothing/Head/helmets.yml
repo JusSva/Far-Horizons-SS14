@@ -152,9 +152,9 @@
 - type: entity
   parent: [ BaseSyndicateContraband, ClothingHeadHelmetBase ]
   id: ClothingHeadHelmetLambdaRaid
-  name: Syndicate Raid Helmet #Far Horizons - The Great Capitalization Crusade
+  name: Lambda Raid Helmet "Apollo" #Far Horizons - The Great Capitalization Crusade
   suffix: NT
-  description: An armored helmet for use with the syndicate raid suit. Very stylish.
+  description: An armored helmet for use with the "Apollo" raid suit. Very stylish.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/Head/Helmets/hardliner_raid_helmet.rsi

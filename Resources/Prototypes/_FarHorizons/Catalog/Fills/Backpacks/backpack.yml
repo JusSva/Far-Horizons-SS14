@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingBackpackSyndicateBundle
   id: ClothingBackpackLambdaRaidBundle
-  name: syndicate raid suit bundle
+  name: Lambda "Apollo" bundle
   description: "Contains the Syndicate's durable raid armor suit."
   components:
   - type: EntityTableContainerFill
