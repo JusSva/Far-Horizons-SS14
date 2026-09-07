@@ -239,7 +239,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing, BaseToggleClothing, BaseSyndicateContraband]
   id: ClothingOuterHardsuitInfiltration
-  name: syndicate infiltration hardsuit
+  name: Syndicate Infiltration Hardsuit #Far Horizons capitalization
   suffix: NS #Far Horizons
   description: The Syndicate's Special Operations' hardsuit of choice, this hardsuit, as well as durability, has been built with stealth in mind.
   components:

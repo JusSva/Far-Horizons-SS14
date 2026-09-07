@@ -155,17 +155,36 @@
     - CorgiWearable
 
 - type: entity
-  parent: ClothingHeadHardsuitBase #[ ClothingHeadSuitWithLightBase ]
+  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitInfiltration
   categories: [ HideSpawnMenu ]
-  name: syndicate infiltration hardsuit helmet
+  name: Syndicate Infiltration Hardsuit Helmet # Far Horizons capitalization
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/infiltrationsyndie.rsi
   - type: Clothing
     sprite: _Starlight/Clothing/Head/Hardsuits/infiltrationsyndie.rsi
-  #- type: PointLight
-    #color: "#880808"
+    #Far Horizons-Start
+    clothingVisuals:
+      head:
+        - state: equipped-HELMET
+      head-vox:
+        - state: equipped-HELMET-vox
+      head-avali:
+        - state: equipped-HELMET-avali
+  - type: ToggleableVisuals
+    clothingVisuals:
+      head:
+        - state: equipped-HELMET
+      head-vox:
+        - state: equipped-HELMET-vox
+      head-avali:
+        - state: equipped-HELMET-avali
+  - type: PointLight
+    color: "#880808"
+    radius: 6
+    energy: 5
+    #Far Horizons-End
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 10000
